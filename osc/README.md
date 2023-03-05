@@ -9,7 +9,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [https://iliaivashkevich.github.io/osc/](https://your-solution-url.com)
+- Solution URL: https://iliaivashkevich.github.io/osc 
 
 
 ### Built with
