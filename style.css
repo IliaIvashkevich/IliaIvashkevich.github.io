@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@100;700&family=Poppins:wght@200&family=Roboto:ital,wght@1,400;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 15px;
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+}
+.container .lead {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+.container .close {
+  color: hsl(218, 44%, 22%);
+  padding: 5px;
+  font-weight: 500;
+}
+.container img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.attribution {
+  padding-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+}
+.attribution a {
+  color: hsl(240, 85%, 42%);
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: deeppink;
+}/*# sourceMappingURL=style.css.map */
