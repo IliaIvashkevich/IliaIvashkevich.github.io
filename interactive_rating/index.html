@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="Frontend Mentor | Interactive rating component">
+  <meta name="keywords" content="Frontend Mentor, HTML, JS, CSS, JQuery">
+  <meta name="author" content="Ilia Ivashkevich">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+<div class="container-1">
+      <!-- Rating state start -->
+        <div class="rating">
+            <div class="header">
+              <img src="./images/icon-star.svg" alt="" width="100%" height="100%">
+            </div>
+            <div class="main">
+             <h1> How did we do?</h1>
+
+             <p> Please let us know how we did with your support request. All feedback is appreciated 
+              to help us improve our offering!</p>
+            </div>
+              <div class="circle">
+                <input type="radio" id="one" name="rate"value="1" >
+                <label for="one">1</label>
+                <input type="radio" id="two" name="rate"value="2">
+                <label for="two">2</label>
+                <input type="radio" id="three" name="rate"value="3">
+                <label for="three">3</label>
+                <input type="radio" id="four" name="rate"value="4">
+                <label for="four">4</label>
+                <input type="radio" id="five" name="rate"value="5">
+                <label for="five">5</label> 
+              </div>
+              
+              <input type="button" value="SUBMIT" id="submit">
+        </div>
+    </div>
+      <!-- Rating state end -->
+    <div class="container-2">
+      <!-- Thank you state start -->
+      <div class="top">
+      <img src="./images/illustration-thank-you.svg" alt="" width="100%" height="100%">
+      </div>
+      <div class="select">
+      You selected <label for="label" id="label"></label> &nbsp;  &nbsp;  out of 5
+      </div>
+     <h1> Thank you!</h1>
+      <div class="main-p">
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+      </div>
+      <!-- Thank you state end -->
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a> 
+        Coded by <a href="https://github.com/IliaIvashkevich" target="_blank" >Ilia Ivashkevich.</a>
+      </div>
+
+    </div>
+
+<script> $(document).ready(function(){
+      $("#submit").click(function(){
+        $(".container-1").hide();
+
+      });
+      $("#submit").click(function(){
+        $(".container-2").show();
+      });
+    });
+  </script>
+
+  <script src="index.js"></script>
+</body>
+</html>
