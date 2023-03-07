@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* GLOBAL  */
+.container {
+  margin-top: 5.5rem;
+  margin-bottom: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.component {
+  text-align: left;
+  width: 20.5rem;
+  padding: 48px;
+}
+
+.icon img {
+  margin-bottom: 2.5625rem;
+}
+
+.title {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.1875rem;
+  margin-bottom: 2.4375rem;
+}
+
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.9375rem;
+  margin-bottom: 1.6875rem;
+  line-height: 1.6;
+}
+
+.btn {
+  width: 9.375rem;
+  height: 3.125rem;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 3.125rem;
+  text-align: center;
+  padding: 1.125rem;
+  font-size: 0.8125rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+/* SPECIFIC COMPONENT  */
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.sedans-btn {
+  color: hsl(31, 77%, 52%);
+}
+.sedans-btn:active {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 1px solid white;
+}
+
+.suvs-btn {
+  color: hsl(184, 100%, 22%);
+}
+.suvs-btn:active {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border: 1px solid white;
+}
+
+.luxury-btn {
+  color: hsl(179, 100%, 13%);
+}
+.luxury-btn:active {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border: 1px solid white;
+}
+
+/* DESKTOP */
+@media (min-width: 1000px) {
+  .container {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=style.css.map */
