@@ -63,7 +63,7 @@ li.nav-item{
 
 .main{
 
-    background: url(/img/main/main.jpg) no-repeat;
+    background: url(./img/main/main.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: right;
@@ -107,7 +107,7 @@ cursor: pointer;
 
 
 .apple{
-    background-image:url("/img/appleSection/girl-apple.png");
+    background-image:url("./img/appleSection/girl-apple.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
