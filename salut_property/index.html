@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og:https://ogp.me/ns#"">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ilia Ivashkevich https://github.com/IliaIvashkevich">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="description" content="Салют-Property Приложение">
+    <meta name="keywords" content="Web Development, HTML, CSS, Bootstrap">
+    <meta name="title" content="Салют-Property">
+    <meta name="copyright" content="Ilia Ivashkevich">
+    <link rel="canonical" href="https://iliaivashkevich.github.io/salut_property">
+    <meta property="og:site_name" content="Салют-Property"> <!--Зеленым сверху имя сайта-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://iliaivashkevich.github.io/salut_property">
+    <meta property="og:image" content="images/meta-picture.png">
+    <meta property="og:description" content="Салют-Property Приложение"><!--Описание снизу серым-->
+    <meta property="og:title" content="Салют-Property"> <!-- Название черным посередине-->
+    <meta property="website:published_time" content="2023-03-13T19:00:40+00:00">
+    <meta property="website:modified_time" content="2023-03-13T19:00:40+00:00">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Салют-Property"> <!-- Название черным посередине-->
+    <meta name="twitter:description" content="Салют-Property Приложение"> <!--Описание снизу-->
+    <meta name="twitter:image" content="images/meta-picture.png">
+
+    <title>Салют-Property</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Header-->
+        <header class = "pb-5 overflow-hidden bg-green">
+            <div class = "container">
+                <div class = "row py-5">
+                    <div class = "col-sm-6 text-lg-start">
+                        <a href = "#" class = "navbar-brand text-white fs-1">
+                            Салют-Property <i class = "fa fa-money-check-alt"></i>
+                        </a>
+                    </div>
+                    <div class = "col-sm-6 d-none d-md-flex text-white align-items-center nav-icons justify-content-end">
+                        <p class = "fw-bold mb-0">
+                            Доступно на:</p>
+                        <a href = "#">
+                            <i class = "fab fa-android text-white px-2"></i>
+                        </a>
+                        <a href = "#">
+                            <i class = "fab fa-apple text-white px-2"></i>
+                        </a>
+                        <a href = "#">
+                            <i class = "fab fa-windows text-white px-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+    <!--Image Section-->       
+                <div class = "row">
+                    <div class = "col-lg-6 text-white text-center text-lg-start">
+                        <h1 class = "display-1 fw-normal mt-5">Исследуй наше приложение!</h1>
+                        <p class = "my-4 lead fs-5">Вы можете оплачивать услуги, в том числе по QR, переводить деньги другим людям или между своими счетами, проверять баланс на счетах и картах, управлять вкладами и картами, и многое другое.</p>
+                        <button type = "button" class = "btn fw-bold text-white mt-4 btn-header">Узнать подробнее!</button>
+                    </div>
+                    <div class = "col-lg-6 phone-img d-none d-lg-flex justify-content-end gx-0 mt-5">
+                        <img src = "images/phone.png">
+                    </div>
+                </div>
+            </div>
+        </header>
+    <!--Three column section-->
+       <section id = "sec-1" class = "py-5 bg-grey">
+           <div class = "container my-3">
+               <div class = "row">
+                   <div class = "col-md-4 text-center sec-1-item mb-5">
+                        <span class = "d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
+                            <i class = "fab fa-staylinked fs-3"></i>
+                        </span>
+                        <p class = "lead fw-bold">Качество</p>
+                        <p class = "fw-light mx-3 lh-lg">Данный сервис покажет уровень доверия пользователей Интернета, информацию о возрасте домена, местоположении и ip сервера, сайты располагающиеся на одном ip с проверяемым сайтом.</p>
+                   </div>
+                   <div class = "col-md-4 text-center sec-1-item mb-5">
+                        <span class = "d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
+                            <i class = "fa fa-dollar-sign fs-2"></i>
+                        </span>
+                        <p class = "lead fw-bold">Надежность</p>
+                        <p class = "fw-light mx-3 lh-lg">Данный сервис покажет уровень доверия пользователей Интернета, информацию о возрасте домена, местоположении и ip сервера, сайты располагающиеся на одном ip с проверяемым сайтом.</p>
+                    </div>
+                    <div class = "col-md-4 text-center sec-1-item mb-5">
+                        <span class = "d-flex align-items-center justify-content-center mx-auto text-white mb-4 circle-icon">
+                            <i class = "fa fa-door-open fs-2"></i>
+                        </span>
+                        <p class = "lead fw-bold">Доступность</p>
+                        <p class = "fw-light mx-3 lh-lg">Данный сервис покажет уровень доверия пользователей Интернета, информацию о возрасте домена, местоположении и ip сервера, сайты располагающиеся на одном ip с проверяемым сайтом.</p>
+                    </div>
+               </div>
+           </div>
+       </section>
+<!--Product Features Section-->
+       <section id = "sec-2" class = "py-5">
+           <div class = "container my-4">
+               <div class = "row gx-lg-5">
+                   <div class = "col-lg-6 mb-5">
+                        <img src = "images/section-2-bg.jpg" class = "img-fluid">
+                   </div>
+                   <div class = "col-lg-6">
+                       <h3>Наш продукт вас удивит</h3>
+                       <p class = "text-muted fw-light lh-lg my-4">Если вы заинтересованы в эффективности оптимизации своего ресурса, то вам придется постоянно проверять мониторинг состояния сайта. Только в этом случае вы сможете не просто исправить существующие ошибки, но и предотвратить появление новых. Анализ сайта поможет получить исчерпывающую информацию относительно вашего домена и сайта.</p>
+                       <button type = "button" class = "btn btn-green rounded-5 bg-green mt-2 text-white">Подробнее</button>
+                   </div>
+               </div>
+           </div>
+       </section>
+<!--Product Features Section Green-->
+       <section id = "sec-3" class = "py-5 text-white bg-green">
+           <div class = "container my-4">
+               <div class = "row mb-5">
+                   <div class = "col text-center">
+                       <h3 class = "mb-4">Оцените особенности в деталях</h3>
+                       <p class = "lh-lg fw-light pt-2 w-75 mx-auto">После того, как вы проведете анализ домена, вы ознакомитесь более чем с 80 показателями сайта и сможете.</p>
+                   </div>
+               </div>
+               <div class = "row">
+                   <div class = "col-lg-6 text-center text-sm-start mb-4">
+                       <div class = "row">
+                            <div class = "col-sm-2 d-sm-flex justify-content-sm-end">
+                                <span class = "d-flex align-items-center justify-content-center circle-icon bg-white text-green mx-sm-0 mx-auto mb-4">
+                                    <i class = "fa fa-dot-circle fs-2"></i>
+                                </span>
+                            </div>
+                            <div class = "col-sm-10">
+                                <h4>100% Гарантия</h4>
+                                <p class = "lh-lg">Так как проводимая нами проверка сайта показывает лишь основные данные, которые меняются достаточно редко, нет смысла ежедневно смотреть на изменение показателей.</p>
+                            </div>
+                       </div>
+                   </div>
+
+                   <div class = "col-lg-6 text-center text-sm-start mb-4">
+                       <div class = "row">
+                            <div class = "col-sm-2 d-sm-flex justify-content-sm-end">
+                                <span class = "d-flex align-items-center justify-content-center circle-icon bg-white text-green mx-sm-0 mx-auto mb-4">
+                                    <i class = "fa fa-cog fs-2"></i>
+                                </span>
+                            </div>
+                            <div class = "col-sm-10">
+                                <h4>Настройки Приложения</h4>
+                                <p class = "lh-lg">Однако и забывать про них не стоит: специалисты рекомендуют проводить анализ сайта раз в несколько недель.</p>
+                            </div>
+                       </div>
+                   </div>
+
+                   <div class = "col-lg-6 text-center text-sm-start mb-4">
+                       <div class = "row">
+                            <div class = "col-sm-2 d-sm-flex justify-content-sm-end">
+                                <span class = "d-flex align-items-center justify-content-center circle-icon bg-white text-green mx-sm-0 mx-auto mb-4">
+                                    <i class = "fa fa-tv fs-2"></i>
+                                </span>
+                            </div>
+                            <div class = "col-sm-10">
+                                <h4>Экранный модуль</h4>
+                                <p class = "lh-lg">Этот достаточный срок, чтобы увидеть динамику развития сайта и отбросить все статистические погрешности при подсчетах.</p>
+                            </div>
+                       </div>
+                   </div>
+
+                   <div class = "col-lg-6 text-center text-sm-start mb-4">
+                       <div class = "row">
+                            <div class = "col-sm-2 d-sm-flex justify-content-sm-end">
+                                <span class = "d-flex align-items-center justify-content-center circle-icon bg-white text-green mx-sm-0 mx-auto mb-4">
+                                    <i class = "fa fa-crop fs-2"></i>
+                                </span>
+                            </div>
+                            <div class = "col-sm-10">
+                                <h4>Отличное качество</h4>
+                                <p class = "lh-lg">Также будет доступна информация WhoIS и заголовок ответа сервера, что может быть полезно и при изучении собственного сайта.</p>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+<!--Interactive section-->
+       <section id = "sec-4" class = "py-5">
+        <div class = "container my-4">
+            <div class = "row gx-lg-5">
+                <div class = "col-lg-6 mb-5">
+                     <h3>Поностью Интерактивный!</h3>
+                    <p class = "text-muted fw-light lh-lg my-4">Да, наш сервис позволяет обрабатывать и анализировать материал, размещенный на сайте. В результате вы получите сводку о релевантных заголовках на вашей странице, узнаете количество исходящих и входящих ссылок на ваш сайт, ошибки в заполнении метатегов и оценку качества текста. </p>
+                    <p class = "text-muted fw-light lh-lg my-4">На основании SEO-анализа вы получите список сайтов, которые конкурируют с вами в одной нише.</p>
+                    <button type = "button" class = "btn btn-green mt-2">Подробнее</button>
+                </div>
+                <div class = "col-lg-6">
+                    <img src = "images/section-4-bg.jpg" class = "img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Video Section-->
+    <section id = "sec-5" class = "py-5">
+        <div class = "container my-4">
+            <div class = "row mb-5">
+                <div class = "col text-center">
+                    <h3 class = "mb-4">Видео сведения</h3>
+                    <p class = "lh-lg fw-light pt-2 w-75 mx-auto">Стоит проанализировать своих конкурентов, чтобы увидеть их слабые и сильные стороны, и поработать над сайтом так, чтобы материал вашего сайта был лучше конкурентного.</p>
+                </div>
+            </div>
+
+            <div class = "row">
+                <video muted autoplay loop>
+                    <source src = "images/promo-vid.mp4" type = "video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+<!--Stats Section-->
+    <section id = "sec-6" class = "py-5">
+        <div class = "container my-4">
+            <div class = "row mb-5">
+                <div class = "col-12 text-center text-white">
+                    <h3 class = "mb-4">Статистика Приложения</h3>
+                    <p class = "lh-lg fw-light pt-2 w-75 mx-auto">Если вы заинтересованы в эффективности оптимизации своего ресурса, то вам придется постоянно проверять мониторинг состояния сайта. </p>
+                </div>
+            </div>
+            <div class = "row text-uppercase text-center text-white">
+                <div class = "col-md-6 col-lg-3 mb-5">
+                    <div class = "circle-icon bg-white text-green d-flex align-items-center justify-content-center mx-auto mb-4 fs-2 fw-bold">
+                        200+
+                    </div>
+                    <h6>проектов</h6>
+                </div>
+
+                <div class = "col-md-6 col-lg-3 mb-5">
+                    <div class = "circle-icon bg-white text-green d-flex align-items-center justify-content-center mx-auto mb-4 fs-2 fw-bold">
+                        50+
+                    </div>
+                    <h6>счастливых клиентов</h6>
+                </div>
+
+                <div class = "col-md-6 col-lg-3 mb-5">
+                    <div class = "circle-icon bg-white text-green d-flex align-items-center justify-content-center mx-auto mb-4 fs-2 fw-bold">
+                        90%
+                    </div>
+                    <h6>повтор </h6>
+                </div>
+
+                <div class = "col-md-6 col-lg-3 mb-5">
+                    <div class = "circle-icon bg-white text-green d-flex align-items-center justify-content-center mx-auto mb-4 fs-2 fw-bold">
+                        9/10
+                    </div>
+                    <h6>средний рейтинг</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "sec-7" class = "py-5">
+        <div class = "container my-4">
+            <div class = "row gx-md-5">
+                <div class = "col-md-6 my-3">
+                    <div class = "card text-center">
+                        <img class = "card-img-top" src = "images/blog-1-img.jpg">
+                        <div class = "card-body py-5">
+                            <h4 class = "card-title">Как привлечь клиентов</h4>
+                            <p class = "card-text py-3 lh-lg text-muted fw-light">Во-вторых, делает расчеты только для доменов второго уровня. Если у вас блог на блог-платформе, вы увидите информацию о всей платформе сразу, а не о вашем блоге.</p>
+                            <a href = "#" class = "btn btn-green">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 my-3">
+                    <div class = "card text-center">
+                        <img class = "card-img-top" src = "images/blog-2-img.jpg">
+                        <div class = "card-body py-5">
+                            <h4 class = "card-title">Лучшие идеи для решения задачи</h4>
+                            <p class = "card-text py-3 lh-lg text-muted fw-light">Мы не несём ответственности за предоставленные данные. Посещаемость рассчитывается по особой формуле, которая показывает только примерные данные. </p>
+                            <a href = "#" class = "btn btn-green">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Testimonials-->
+    <section id = "sec-8" class = "py-5 bg-grey">
+        <div class = "container my-4">
+            <div class = "row">
+                <div class = "col-12 text-center">
+                    <h3 class = "mb-5">Отзывы</h3>
+                </div>
+            </div>
+
+            <div class = "row">
+                <div id = "carouselInd" class = "carousel slide" data-bs-ride = "carousel">
+                    <div class = "carousel-indicators">
+                        <button type = "button" data-bs-target = "#carouselInd" data-bs-slide-to = "0" class = "active bg-green"></button>
+                        <button type = "button" data-bs-target = "#carouselInd" data-bs-slide-to = "1" class = "bg-green"></button>
+                        <button type = "button" data-bs-target = "#carouselInd" data-bs-slide-to = "2" class = "bg-green"></button>
+                    </div>
+
+                    <div class = "carousel-inner">
+                        <div class = "carousel-item active">
+                            <div class = "col-12 row mx-auto">
+                                <div class = "row text-center text-lg-start">
+                                    <img src = "images/tes-img-1.jpg" class = "col-lg-3 mx-auto rounded-top-circle">
+                                    <div class = "py-4 col-lg-9">
+                                        <p class = "text-muted lh-lg fw-light"> Анализ сайта поможет получить исчерпывающую информацию относительно вашего домена и сайта.</p>
+                                        <p class = "text-green">Татьяна Хуева, Сочи</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "carousel-item">
+                            <div class = "col-12 row mx-auto">
+                                <div class = "row text-center text-lg-start">
+                                    <img src = "images/tes-img-2.jpg" class = "col-lg-3 mx-auto rounded-end-circle">
+                                    <div class = "py-4 col-lg-9">
+                                        <p class = "text-muted lh-lg fw-light">Только в этом случае вы сможете не просто исправить существующие ошибки, но и предотвратить появление новых.</p>
+                                        <p class = "text-green">Наталья Хренова, СпБ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "carousel-item">
+                            <div class = "col-12 row mx-auto">
+                                <div class = "row text-center text-lg-start">
+                                    <img src = "images/tes-img-3.jpg" class = "col-lg-3 mx-auto rounded-bottom-circle">
+                                    <div class = "py-4 col-lg-9">
+                                        <p class = "text-muted lh-lg fw-light">Инструмент позволяет узнать ИКС сайта за одну секунду. Этот показатель определяет, насколько сайт востребован у пользователей с точки зрения Яндекса. Можно использовать для своего или чужого сайта.</p>
+                                        <p class = "text-green">Павел Иванов, Мск</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "sec-9" class = "py-5">
+        <div class = "container my-5">
+            <div class = "row">
+                <div class = "col-12 text-center">
+                    <h3 class = "mb-4">Цены</h3>
+                </div>
+            </div>
+<!--Pricing Section-->
+            <div class = "row px-3 my-4">
+                <div class = "col-lg-4 pricing-item bg-green text-white text-center p-0 mb-5 mx-auto">
+                    <div class = "pricing-title text-uppercase py-3 fs-5">Приобрести</div>
+                    <div class = "pricing-price fs-1 fw-bold">Бесплатно</div>
+                    <ul class = "px-0">
+                        <li>ОбЪем трафика</li>
+                        <li>Место на диске</li>
+                        <li>Хранение</li>
+                    </ul>
+                    <div class = "pricing-footer pt-3 pb-5">
+                        <button type = "button" class = "btn rounded-5 bg-white text-green">Доватить в корзину</button>
+                    </div>
+                </div>
+
+                <div class = "col-lg-4 pricing-item bg-green text-white text-center p-0 mb-5 mx-auto">
+                    <div class = "pricing-title text-uppercase py-3 fs-5">Приобрести</div>
+                    <div class = "pricing-price fs-1 fw-bold">₽29<sup>99</sup></div>
+                    <ul class = "px-0">
+                        <li>ОбЪем трафика</li>
+                        <li>Место на диске</li>
+                        <li>Хранение</li>
+                    </ul>
+                    <div class = "pricing-footer pt-3 pb-5">
+                        <button type = "button" class = "btn rounded-5 bg-white text-green">Доватить в корзину</button>
+                    </div>
+                </div>
+
+                <div class = "col-lg-4 pricing-item bg-green text-white text-center p-0 mb-5 mx-auto">
+                    <div class = "pricing-title text-uppercase py-3 fs-5">Приобрести</div>
+                    <div class = "pricing-price fs-1 fw-bold">₽49<sup>99</sup></div>
+                    <ul class = "px-0">
+                        <li>ОбЪем трафика</li>
+                        <li>Место на диске</li>
+                        <li>Хранение</li>
+                    </ul>
+                    <div class = "pricing-footer pt-2 pb-4">
+                        <button type = "button" class = "btn rounded-5 bg-white text-green">Доватить в корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer`-->
+    <footer class = "bg-green">
+        <div class = "container">
+            <div class = "row pt-3 text-white">
+                <div class = "col-md-12 text-center text-md-center">
+                    <p><span class = "fw-normal">Ilia Ivashkevich &copy;</span> Copyright 2023</p>
+                </div>
+                <div class = "col-md-12 d-flex justify-content-center justify-content-md-center">
+                    <ul class = "d-flex p-0 ">
+                        <a href="#" class="text-white"><li><i class = "fab fa-facebook-f px-2"></i></li></a> 
+                        <a href="#" class="text-white"><li><i class = "fab fa-twitter px-2"></i></li></a> 
+                        <a href="#"class="text-white"> <li><i class = "fab fa-instagram px-2"></i></li></a>
+                        <a href="https://github.com/IliaIvashkevich"class="text-white" target="_blank"><li><i class = "fab fa-github px-2"></i></li></a> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
+</body>
+</html>
