@@ -1,7 +1,7 @@
 {
   "name": "tail_style",
   "version": "1.0.0",
-  "description": "",
+  "description": "TailwindCSS project\r https://iliaivashkevich.github.io/tail_style/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
