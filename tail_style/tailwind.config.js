@@ -3,8 +3,8 @@ module.exports = {
   content: [".{html,js}"],
   theme: {
     extend: {
-      fontFamily:{
-        "satisfy":["Satisfy", "cursive"],
+      fontFamily: {
+        'pasifico': ["Pacifico", "cursive"],
       },
     },
   },
